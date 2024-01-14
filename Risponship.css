@@ -846,20 +846,208 @@
 
 }
 
-@media ( max-width: 1440px) {
+@media (max-width: 1440px) {
     .frame-9 {
         top: 517px;
     }
+
     .rec-webdevloper svg {
         margin-bottom: 1rem;
     }
+
     .icon1 {
         top: 13.7rem;
         left: 6rem;
     }
+
     .about-in img {
         margin-top: 0px;
     }
+
     .about-content {
-        bottom: 26px;}
+        bottom: 26px;
+    }
+}
+
+@media (max-width: 450px) {
+    .ham {
+        bottom: -16rem;
+        left: -11.9rem;
+    }
+
+    .frame-2 {
+        left: 30px !important;
+        top: 175px !important;
+    }
+
+    .i-am-a-student-of-computer-science-engineering-i-am-a-full-stack-web-developer-and-good-cooder {
+        width: 15rem;
+        line-height: 20px;
+    }
+
+    .ankit {
+        font-size: 76.839325px !important;
+    }
+
+    .hello-i-m {
+        height: 185.94px;
+        font-size: 18.805294px;
+    }
+
+    .frame-7 {
+        left: 31px !important;
+        top: 475px !important;
+    }
+
+    .side {
+        width: 3.625rem;
+    }
+
+    .ellipse-20 {
+        right: -1.9rem;
+    }
+
+    .logo-im {
+        left: 0.5rem;
+        top: -0.3rem;
+        width: 9rem;
+    }
+
+    .logo svg {
+        width: 10rem;
+        top: -62px;
+        left: -20px;
+    }
+
+    .skill-content {
+        width: 73.5% !important;
+        height: 5.625rem !important;
+        top: 11.5rem !important;
+        left: 4rem !important;
+        font-size: 1.2rem !important;
+    }
+
+    .skill-componen {
+        top: 27.5rem !important;
+        width: 76% !important;
+        left: 3rem !important;
+    }
+
+    .img {
+        width: 0 !important;
+        margin-left: 20px !important;
+        MARGIN-RIGHT: 2.5rem;
+    }
+
+    .img img {
+        margin-top: 5px;
+        width: 2rem;
+    }
+
+    .p-bar {
+        width: 80% !important;
+    }
+
+    .s-itean,
+    .s-i {
+        width: 80% !important;
+    }
+
+    .about-in img {
+        height: 16rem;
+        margin-left: -50px !important;
+    }
+
+    .icon1 {
+        top: 14.7rem !important;
+        left: -4rem !important;
+    }
+
+    .about-info {
+        position: absolute !important;
+        left: -4rem !important;
+        top: 18rem !important;
+        width: 100% !important;
+    }
+
+    .about-content {
+        bottom: 90px;
+        left: 4rem !important;
+    }.pro-container {
+        width: 80%;
+        top: 14rem;
+        left: 2rem;
+    }
+    #project{
+        height: 300vh !important;
+    }.contact-form {
+        top: 24.9rem !important;
+        position: absolute;
+        padding-top: 2rem !important;
+        left: 2rem !important;
+        width: 19rem !important;
+        height: 29.1875rem !important;
+    }.contact-text {
+        width: 16rem !important;
+        padding: 1.1rem 1.5rem 2rem 2rem !important;
+        position: absolute !important;
+        top: 13rem !important;
+        left: 3.5rem !important;
+    }.con-heading {
+        margin-left: 3rem;
+    }.inputs input {
+        margin: 0.6rem 0 0 3rem;
+    }#massage {
+        margin: 0.6rem 0 0 3rem;
+    }#btn {
+        margin: 1.5rem 0rem 0rem 3rem;
+    }.side-info {
+        left: 6rem !important;
+        top: 48.5rem !important;
+    }
+    #contact{
+        height: 125vh;
+    }.icon-1, .icon-2, .icon-3 {
+        width: 20px;
+    }
+    #nav-1 ul {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 20%;}
+
+        #nav-1 a{
+            text-decoration: none;
+        }
+        #nav-1 li {
+            list-style: none;
+            font-size: 18px;
+            color: #fff;
+            line-height: 2.3;
+            text-transform: uppercase;
+            letter-spacing: 1.7px;
+        }
+        #nav-1 li:hover{
+            transform: scale(1.2);
+        }#skills {
+            height: 195vh !important;
+        }
+        .contact-text {
+            height: 14.25rem;
+        }
+
+}
+
+@media (max-height: 700px) {
+    #about{
+        height: 190vh !important;
+    }
+    #contact{
+        height: 135vh !important;
+    } #project{
+        height: 360vh !important;
+    }#skills {
+        height: 230vh !important;
+    }
+
 }
