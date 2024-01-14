@@ -1,0 +1,865 @@
+@media (max-width: 600px) {
+    #home {
+        border: none;
+        margin: 0;
+        border-radius: 0;
+        height: 100vh;
+        width: 100%;
+        background: hidden;
+        box-shadow: none;
+    }
+
+    #main {
+        background: radial-gradient(closest-side, rgb(235, 243, 245) 10.4572%, rgb(197 226 240 / 86%) 100%);
+
+    }
+
+    body {
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow-y: scroll;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .side-svg {
+        position: absolute !important;
+    }
+
+    #skills {
+        height: 215vh;
+    }
+
+    #about {
+        height: 160vh !important;
+    }
+
+    #project {
+        height: 325vh !important;
+    }
+
+    #contact {
+        height: 137vh;
+    }
+
+    #skills,
+    #project,
+    #about,
+    #contact {
+        border: none;
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+        overflow-y: hidden;
+        background: hidden;
+        box-shadow: none;
+    }
+
+
+
+    .ic {
+        margin-left: 1.5rem;
+    }
+
+    .project-text1 {
+        width: 100%;
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
+
+    .ham {
+        position: fixed;
+        bottom: -12rem;
+        z-index: 124;
+        left: -7rem;
+    }
+
+    .project-text2 {
+        width: 100%;
+        font-size: 1rem;
+        margin: 1rem 1rem 2rem 1rem;
+    }
+
+    .bup {
+        position: fixed;
+        bottom: 0.7rem;
+        right: 1.5rem;
+        z-index: 1216;
+        width: 3rem;
+    }
+
+    .bupp {
+        position: fixed;
+        bottom: 37px;
+        z-index: 1235;
+        right: 39px;
+        width: 2rem;
+    }
+
+    .side-info {
+        position: absolute;
+        top: 48rem !important;
+        left: 13rem !important;
+    }
+
+    .contact-form {
+        top: 24.9rem !important;
+        position: absolute;
+        padding-top: 2rem !important;
+        left: 2rem !important;
+        width: 24rem !important;
+        height: 27.1875rem !important;
+    }
+
+    .contact-text {
+        width: 18.25rem !important;
+        padding: 2.1rem 2.5rem 2rem 4rem !important;
+        position: absolute !important;
+        top: 14rem !important;
+        left: 5.5rem !important;
+    }
+
+    .project-heading {
+        width: 100% !important;
+        font-size: 1rem !important;
+    }
+
+    .project-heading::after {
+        width: 15rem !important;
+        left: 27px !important;
+        top: 66px !important;
+    }
+
+    .project-img {
+        width: 16rem;
+        margin-left: 0;
+    }
+
+    .pro-container {
+        width: 67%;
+        position: absolute;
+        top: 13rem;
+        left: 6rem;
+    }
+
+    .about-content {
+        width: 67.5%;
+        left: 6rem;
+    }
+
+    .icon1 {
+        top: 14.7rem !important;
+        left: 4px !important;
+    }
+
+    .about-in {
+        height: 20rem !important;
+        left: 10rem !important;
+        width: 92.5% !important;
+    }
+
+    .about-in img {
+        margin-left: 0 !important;
+        margin-top: 31px !important;
+    }
+
+    .heading {
+        top: 6rem;
+        left: 7.5rem;
+    }
+
+    .mid {
+        position: absolute !important;
+        flex-direction: column !important;
+        top: 17rem !important;
+        height: 20rem !important;
+        left: 8rem !important;
+        width: 78.5% !important;
+        display: flex !important;
+    }
+
+    .p-bar {
+        height: 0.83rem !important;
+        margin-right: 30px !important;
+        width: 14rem !important;
+        margin-top: 4px !important;
+        margin-left: 1rem !important;
+        background: #EBF3F5 !important;
+    }
+
+    .img {
+        width: 2.1875rem !important;
+        margin-left: 6px !important;
+        height: 3rem !important;
+    }
+
+    .s-i {
+        display: flex !important;
+        justify-content: space-between !important;
+        width: 14rem !important;
+        margin-left: 1rem !important;
+    }
+
+    .skill-content {
+        width: 74% !important;
+        height: 5.625rem !important;
+        top: 11.5rem !important;
+        left: 6rem !important;
+        font-size: 1.2rem !important;
+    }
+
+    .skill-componen {
+        position: absolute !important;
+        top: 24.5rem !important;
+        width: 75% !important;
+        left: 3.5rem !important;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .margin {
+        padding-top: 0 !important;
+    }
+
+    .frame-9 {
+        display: none !important;
+    }
+
+    .hamburger-icon {
+        opacity: 1;
+    }
+
+    .ankit {
+        font-size: 108.839325px !important;
+    }
+
+    .frame-2 {
+        left: 66px !important;
+        top: 205px !important;
+    }
+
+    .i-am-a-student-of-computer-science-engineering-i-am-a-full-stack-web-developer-and-good-cooder {
+        font-size: 15.374292px !important;
+        top: 133px !important;
+        color: #222222 !important;
+    }
+
+    .frame-7 {
+        left: 65px !important;
+        top: 502px !important;
+    }
+
+    body {
+        background-color: #000000;
+        overflow-y: scroll;
+    }
+
+    .logo svg {
+        width: 10rem;
+        position: absolute;
+        top: -51px;
+        z-index: 11;
+        left: -14px;
+    }
+
+    .logo-im {
+        z-index: 15;
+        position: absolute;
+        left: 1rem;
+        top: 0rem;
+        width: 8rem;
+    }
+
+    .s-sv svg {
+        display: none;
+    }
+
+    .rec-webdevloper {
+        height: 51.25vh;
+    }
+
+    .rec-webdesign {
+        height: 49.25vh;
+    }
+
+    .contact-container {
+        position: absolute;
+        left: 0 !important;
+    }
+}
+
+
+@media (max-width: 1451px) {
+    .rectangle-4 {
+        right: 1055px;
+    }
+
+    .rectangle-5 {
+        right: 1192px;
+    }
+}
+
+@media (max-width: 1346px) {
+
+    .home-photo {
+        position: absolute;
+        width: 28rem;
+        top: 9rem;
+        left: 24rem;
+    }
+
+    .ellipse-3 {
+        z-index: -1;
+        left: 42rem;
+        top: 727px;
+    }
+
+    .rec-webdevloper {
+        z-index: 12;
+    }
+
+    .about-in img {
+        width: inherit;
+        margin-left: 5rem;
+        margin-top: 50px;
+    }
+
+    .icon1 {
+        position: absolute;
+        top: 16.7rem;
+        left: 5rem;
+    }
+
+    .contact-container {
+        position: absolute;
+        right: 108%;
+    }
+
+    .ham {
+        bottom: -103px;
+    }
+
+    .side-info {
+        z-index: 12;
+        left: 26%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .s-sv svg {
+        position: absolute;
+        top: -155px;
+        right: -144px;
+    }
+
+    .rectangle-4 {
+        right: 1055px;
+    }
+}
+
+@media (max-width: 1224px) {
+    .project-text2 {
+        width: 66rem;
+        margin: 1rem 8.5rem 3rem 10rem;
+    }
+
+    .nav {
+        left: 18rem;
+    }
+
+    .side-info {
+        position: absolute;
+        top: 48rem;
+        left: 13rem;
+    }
+
+    .contact-container {
+        position: absolute;
+        right: 114%;
+    }
+}
+
+@media (max-width: 1075px) {
+
+    .home-photo {
+        position: absolute;
+        width: 25rem;
+        top: 11rem;
+        left: 24rem;
+    }
+}
+
+@media (max-width: 1034px) {
+
+    .home-photo {
+        width: 23rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .home-photo {
+        left: 22rem;
+
+    }
+
+    .i-am-a-student-of-computer-science-engineering-i-am-a-full-stack-web-developer-and-good-cooder {
+        font-size: 15.374292px;
+        top: 133px;
+        color: #222222;
+    }
+
+    .frame-9 {
+        left: 80px;
+    }
+
+    .frame-2 {
+        left: 87px;
+    }
+
+    .frame-7 {
+        left: 84px;
+    }
+
+}
+
+@media (max-width: 940px) {
+    .home-photo {
+        left: 20rem;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .home-photo {
+        display: none;
+    }
+
+    .frame-7 {
+        left: 127px;
+        top: 485px;
+    }
+
+    .frame-2 {
+        left: 126px;
+    }
+
+    .i-am-a-student-of-computer-science-engineering-i-am-a-full-stack-web-developer-and-good-cooder {
+        font-size: 18.374292px;
+    }
+
+    .contact-me {
+        left: 523px;
+    }
+
+    .project {
+        left: 382px;
+    }
+
+    .about {
+        left: 251px;
+    }
+
+    .skills {
+        left: 120px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    #home {
+        border: none;
+        margin: 0;
+        border-radius: 0;
+        height: 100vh;
+        width: 100%;
+        background: hidden;
+        box-shadow: none;
+    }
+
+    #main {
+        background: radial-gradient(closest-side, rgb(235, 243, 245) 10.4572%, rgb(197 226 240 / 86%) 100%);
+    }
+
+    body {
+
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow-y: scroll !important;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .margin {
+        padding-top: 0 !important;
+    }
+
+    #skills {
+        height: 215vh;
+    }
+
+    #about {
+        height: 164vh;
+    }
+
+    #project {
+        height: 300vh;
+    }
+
+    #contact {
+        height: 137vh;
+    }
+
+    #skills,
+    #project,
+    #about,
+    #contact {
+        border: none;
+        margin: 0;
+        border-radius: 0;
+        width: 100%;
+        overflow-y: hidden;
+        background: hidden;
+        box-shadow: none;
+    }
+
+    /* #about .bottom-up {
+        display: none;
+    } */
+
+    .ic {
+        margin-left: 1.5rem;
+    }
+
+    .project-text1 {
+        width: 100%;
+        font-size: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 1rem;
+    }
+
+    .ham {
+        position: fixed;
+        bottom: -12rem;
+        z-index: 124;
+        left: -7rem;
+    }
+
+    .project-text2 {
+        width: 100%;
+        font-size: 1rem;
+        margin: 1rem 3rem 2rem 3rem;
+    }
+
+    .bup {
+        position: fixed;
+        bottom: 0.7rem;
+        right: 1.5rem;
+        z-index: 1216;
+        width: 3rem;
+    }
+
+    .bupp {
+        position: fixed;
+        bottom: 37px;
+        z-index: 1235;
+        right: 39px;
+        width: 2rem;
+    }
+
+    .side-info {
+        position: absolute;
+        top: 48rem;
+        left: 13rem;
+    }
+
+    .contact-form {
+        top: 24.9rem;
+        position: absolute;
+        padding-top: 2rem;
+        left: 2rem;
+        width: 26rem;
+        height: 27.1875rem;
+    }
+
+    .contact-text {
+        width: 18.25rem;
+        padding: 2.1rem 2.5rem 2rem 4rem;
+        position: absolute;
+        top: 14rem;
+        left: 5.5rem;
+    }
+
+    .project-heading {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .project-heading::after {
+        width: 15rem;
+        left: 23%;
+        top: 66px;
+    }
+
+    .project-img {
+        width: 16rem;
+        margin-left: 0;
+    }
+
+    .pro-container {
+        width: 67%;
+        position: absolute;
+        top: 13rem;
+        left: 6rem;
+    }
+
+    .about-content {
+        width: 67.5%;
+        left: 6rem;
+    }
+
+    .icon1 {
+        top: 18.7rem;
+        left: 73px;
+    }
+
+    .about-in {
+        height: 22rem;
+        left: 10rem;
+        width: 92.5%;
+    }
+
+    .about-in img {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .heading {
+        top: 6rem;
+        left: 7.5rem;
+    }
+
+    .mid {
+        position: absolute;
+        flex-direction: column;
+        top: 17rem;
+        height: 20rem;
+        left: 8rem;
+        width: 78.5%;
+        display: flex;
+    }
+
+    .p-bar {
+        height: 0.83rem;
+        margin-right: 30px;
+        width: 14rem;
+        margin-top: 4px;
+        margin-left: 1rem;
+        background: #EBF3F5;
+    }
+
+    .img {
+        width: 2.1875rem;
+        margin-left: 6px;
+        height: 3rem;
+    }
+
+    .s-i {
+        display: flex;
+        justify-content: space-between;
+        width: 14rem;
+        margin-left: 1rem;
+    }
+
+    .skill-content {
+        width: 74%;
+        height: 5.625rem;
+        top: 11.5rem;
+        left: 6rem;
+        font-size: 1.2rem;
+    }
+
+    .skill-componen {
+        position: absolute;
+        top: 24.5rem;
+        width: 75%;
+        left: 4.5rem;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .margin {
+        padding-top: 0 !important;
+    }
+
+    .frame-9 {
+        display: none;
+    }
+
+    .hamburger-icon {
+        opacity: 1;
+    }
+
+    .bottom-up {
+        display: none;
+    }
+
+
+    .logo svg {
+        width: 10rem;
+        position: absolute;
+        top: -35px;
+        z-index: 11;
+        left: 0;
+    }
+
+    .logo-im {
+        z-index: 15;
+        position: absolute;
+        left: 1.5rem;
+        top: 0rem;
+        width: 10rem;
+
+    }
+
+    .s-sv svg {
+        display: none;
+    }
+
+    .rec-webdevloper {
+        height: 51.25vh;
+    }
+
+    .rec-webdesign {
+        height: 49.25vh;
+    }
+
+    .contact-container {
+        position: absolute;
+        left: 12%;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    .contact-me {
+        left: 523px;
+    }
+
+    .project {
+        left: 382px;
+    }
+
+    .about {
+        left: 251px;
+    }
+
+    .skills {
+        left: 120px;
+    }
+
+    .skill-componen {
+
+        width: 67%;
+        left: 20%;
+    }
+
+    .img {
+        width: 3.1875rem;
+        margin-left: 3rem;
+        MARGIN-RIGHT: 3rem;
+    }
+
+    .s-i {
+
+        width: 89%;
+    }
+
+    .s-itean {
+        width: 90%;
+    }
+
+    .p-bar {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1650px) {
+    .frame-9 {
+        left: 150px;
+        top: 663px;
+    }
+
+    .rectangle-4 {
+        right: 1377px;
+        top: 769px;
+    }
+
+    .home-photo {
+        top: 9rem;
+        left: 30rem;
+    }
+
+    .frame-2 {
+        left: 120px;
+        top: 230px;
+    }
+
+    .frame-7 {
+        left: 120px;
+        top: 545px;
+    }
+
+    .icon1 {
+        top: 21.7rem;
+        left: 8rem;
+    }
+
+    .contact-container {
+        position: absolute;
+        top: 3rem;
+        left: 1rem;
+    }
+
+    .side-info {
+        top: 34rem;
+        left: 21rem;
+    }
+
+}
+
+@media ( max-width: 1440px) {
+    .frame-9 {
+        top: 517px;
+    }
+    .rec-webdevloper svg {
+        margin-bottom: 1rem;
+    }
+    .icon1 {
+        top: 13.7rem;
+        left: 6rem;
+    }
+    .about-in img {
+        margin-top: 0px;
+    }
+    .about-content {
+        bottom: 26px;}
+}

@@ -1,0 +1,165 @@
+.contact-text {
+    width: 23.25rem;
+    padding: 2.1rem 2.5rem 2rem 4rem;
+    position: absolute;
+    top: 15rem;
+    left: 13.5rem;
+    z-index: 12;
+    height: 13.25rem;
+    flex-shrink: 0;
+    border-radius: 1.06944rem;
+    border: 1.5px solid #2B558E;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(13.058648109436035px);
+}
+
+.line {
+    width: 91%;
+    position: absolute;
+    bottom: 6px;
+    left: 21px;
+    margin: auto;
+    height: 0.3rem;
+    background: rgba(43, 85, 142, 0.72);
+}
+
+.contact-form {
+    top: 11.9rem;
+    position: absolute;
+    left: 34rem;
+    width: 27rem;
+    height: 24.1875rem;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1.5px solid #7DB9CE;
+    background: rgba(125, 185, 206, 0.20);
+    backdrop-filter: blur(13.058648109436035px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+
+}
+
+.con-heading {
+    color: #173B6C;
+    font-family: Inter;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.0825rem;
+    text-transform: capitalize;
+}
+
+.inputs {
+    margin-top: 22px;
+}
+
+.inputs input {
+    width: 70%;
+    padding-left: 1rem;
+    margin: 0.6rem 0 0 5rem;
+    height: 2rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1.5px solid #86C4D9;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(13.058648109436035px);
+}
+
+.inputs input::placeholder {
+    font-size: 14px;
+}
+
+.inputs input:focus {
+    border: 1.5px solid #2B558E !important;
+}
+
+#massage {
+    width: 70%;
+    padding-left: 1rem;
+    padding-top: 7px;
+    margin: 0.6rem 0 0 5rem;
+    height: 4.6rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1.5px solid #86C4D9;
+    background: rgba(255, 255, 255, 0.70);
+    backdrop-filter: blur(13.058648109436035px);
+}
+
+#massage::placeholder {
+    font-size: 16px;
+}
+
+#btn {
+    width: 9rem;
+    height: 2.1rem;
+    margin: 1.5rem 0rem 0rem 5rem;
+    border-radius: 0.5rem;
+    border: 2px solid #66B2CA;
+    background: #86C5DA;
+    color: #173B6C;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#btn:hover{
+    /* background-color: #66B2CA; */
+    border: 2px solid #86C5DA;
+    background: #a1d8ea;
+    color: #000000;
+    /* border: none; */
+    transform: scale(1.02);
+    box-shadow: 0 0 1em 0.1em hsl(186 100% 69%);
+}
+
+.tt {
+    color: #2929299c;
+    font-family: Inter;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.05625rem;
+    text-transform: capitalize;
+}
+
+.tp {
+    color: #292929;
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.06375rem;
+    text-transform: capitalize;
+}
+
+.side-info .icon .ic {
+    margin-left: 1.5rem;
+    z-index: 1211;
+}
+
+.ii {
+    color: #292929;
+    font-size: 1.1rem;
+}
+
+.side-info {
+    position: absolute;
+    top: 31rem;
+    left: 20rem;
+}
+.ham{
+    position: absolute; bottom: -86px;
+}
+.bup{
+    position: absolute;  bottom: 1.4rem;  right: 2rem;  width: 3rem;
+}
+.bupp{
+    position: absolute; bottom: 50px; right: 48.5px; width: 2rem;
+}

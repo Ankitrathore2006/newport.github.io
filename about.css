@@ -1,0 +1,102 @@
+.about-content {
+    bottom: -5px;
+    width: 78.5%;
+    height: 5.625rem;
+    position: absolute;
+    left: 10rem;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.13rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mid {
+    position: absolute;
+    top: 14rem;
+    height: 20rem;
+    left: 10rem;
+    width: 78.5%;
+    display: flex;
+}
+
+.non h5,
+.Introduction h4 {
+    color: #000;
+    font-family: Inter;
+    margin-bottom: -7px;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    font-size: 1.01rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon1 {
+    position: absolute;
+    top: 17.7rem;
+    left: 7rem;
+    z-index: 1521;
+}
+
+.st span,
+.d {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.02rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 1rem;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+    text-transform: capitalize;
+}
+
+.about-in {
+    height: 20rem;
+    left: 10rem;
+    width: 78.5%;
+}
+
+.about-in img {
+    width: inherit;
+    margin-left: 6rem;
+    margin-top: 31px;
+}
+
+.colon {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+}
+
+.about-info h3 {
+    color: #173B6C;
+    font-family: Inter;
+    margin-top: 12px;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+    text-transform: capitalize;
+}
+
+.about-ic {
+    color: #292929;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.ic {
+    margin-left: 2rem;
+}

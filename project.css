@@ -1,0 +1,108 @@
+#project {
+    /* margin-top: 2.3rem; */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+#project::-webkit-scrollbar {
+    display: none;
+}
+
+.pro-container {
+    width: 80%;
+    position: absolute;
+    top: 14rem;
+    left: 7rem;
+
+}
+
+.project-div {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    flex-shrink: 0;
+    border-radius: 1.06944rem;
+    border: 1.5px solid rgba(134, 196, 217, 0.50);
+    background: rgba(125, 185, 206, 0.15);
+    backdrop-filter: blur(13.058648109436035px);
+}
+.project-div:hover {
+    transform: scale(1.02);
+}
+.project-heading {
+    width: 100%;
+    height: 1.5rem;
+    margin: 2rem 0 1.5rem 0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #173B6C 39.31%, rgba(23, 59, 108, 0.00) 100.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-heading::after {
+    content: " ";
+    width: 17rem;
+    height: 0.125rem;
+    background: #9AE0D3;
+    position: absolute;
+    left: 385px;
+    top: 72px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.project-containt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-text1 {
+    width: 26.625rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    color: rgba(41, 41, 41, 0.85);
+    font-family: Inter;
+    font-size: 1.14rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.project-text2 {
+    width: 66rem;
+    margin: 1rem 4.5rem 3rem 5rem;
+    color: rgba(41, 41, 41, 0.85);
+    font-family: Inter;
+    font-size: 1.14rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+
+.project-img {
+    width: 19rem;
+    margin-left: 1rem;
+}
+
+.ecp {
+    width: 16.5rem;
+    position: fixed;
+    top: 18rem;
+    z-index: 0;
+    left: 28rem;
+    height: 16.5rem;
+    flex-shrink: 0;
+    border-radius: 16.5rem;
+    background: radial-gradient(384.25% 128.38% at 16.54% 2.44%, #9AE0D3 0%, #35A7A0 96.07%);
+    filter: blur(45px);
+}
