@@ -42,6 +42,8 @@ section {
     display: inline-block;
     position: absolute;
     z-index: 123;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
 .logo:hover {
     transform: scale(1.015);
@@ -51,12 +53,18 @@ section {
     height: -webkit-fill-available;
     position: absolute;
     right: 0;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .home-photo {
     position: absolute;
     top: 7rem;
     left: 26rem;
+    opacity: 0;
+    animation: fade 1s ease forwards;
+    animation-delay: 1.2s;
 }
 /* .home-photo:hover {
     transform: scale(1.015);
@@ -84,7 +92,7 @@ section {
     top: 185px;
 }
 
-.i-am-a-student-of-computer-science-engineering-i-am-a-full-stack-web-developer-and-good-cooder {
+.i-am-a-student-of-computer-science-engineering-i-am-a-full-stack-web-developer-and-good-cooder{
     color: #42454a;
     text-align: left;
     font-family: "Inter-Medium", sans-serif;
@@ -100,6 +108,9 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .ankit {
@@ -118,6 +129,9 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
 }
 
 .hello-i-m {
@@ -138,6 +152,9 @@ section {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
 }
 
 .frame-4 {
@@ -161,6 +178,9 @@ section {
     left: 103px;
     top: 503px;
     z-index: 110;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
 }
 .rectangle-3:hover{
     /* background-color: #66B2CA; */
@@ -208,6 +228,7 @@ section {
     position: absolute;
     left: 39rem;
     top: 679px;
+    
 }
 
 .ellipse-32 {
@@ -256,6 +277,9 @@ section {
     width: 4.625rem;
     right: 0;
     top: 0;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
 }
 
 .rec-webdesign {
@@ -322,11 +346,17 @@ section {
     text-transform: uppercase;
     position: absolute;
     top: 145px;
+    opacity: 0;
+    animation: slideTop 5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
 }
 
 .nav-list a {
  text-decoration: none;
  color: #292929;
+ opacity: 0;
+ animation: slideTop 5s ease forwards;
+ animation-delay: calc(.2s * var(--i));
 }
 
 .home {
