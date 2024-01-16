@@ -865,7 +865,7 @@
     }
 
     .about-content {
-        bottom: 26px;
+        top: 65rem;
     }
 }
 
@@ -905,6 +905,9 @@
 
     .ellipse-20 {
         right: -1.9rem;
+        object-fit:contain;
+        width: fit-content;
+        /* height: 0; */
     }
 
     .logo-im {
@@ -1034,6 +1037,12 @@
         }
         .contact-text {
             height: 14.25rem;
+        }
+        .mob{
+            display: block;
+        }
+        .mob1{
+            display: none;
         }
 
 }
