@@ -234,6 +234,7 @@
 
     .hamburger-icon {
         opacity: 1;
+        animation: slideRight 2s ease forwards;
     }
 
     .ankit {
@@ -715,6 +716,7 @@
 
     .hamburger-icon {
         opacity: 1;
+        animation: slideRight 2s ease forwards;
     }
 
     .bottom-up {

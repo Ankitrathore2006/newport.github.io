@@ -417,8 +417,7 @@ section {
     cursor: pointer;
     border-radius: 50%;
     transition: all 0.2s ease-in-out;
-    opacity: 0;
-    animation: slideRight 2s ease forwards;
+  
     /* background: rgba(255,255,255,0.2);
    /* background: green;
    width: auto;
