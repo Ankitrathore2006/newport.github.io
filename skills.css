@@ -119,7 +119,7 @@
     border-radius: 1.06944rem;
     border: 1.5px solid rgba(134, 196, 217, 0.50);
     background: rgba(125, 185, 206, 0.15);
-    backdrop-filter: blur(13.058648109436035px);
+    /* backdrop-filter: blur(13.058648109436035px); */
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;

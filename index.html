@@ -17,6 +17,11 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        body{
+            -webkit-user-select: none; /* Safari */
+              -ms-user-select: none; /* IE 10 and IE 11 */
+              user-select: none; /* Standard syntax */
+        }
         section {
              background: #e5f0f9; 
         }
@@ -48,12 +53,29 @@
         .nav-list:hover {
             color: #858585;
             transform: scale(1.2);
-            /* box-shadow: 0 0 2em 0.2em hsl(186 100% 69%); */
+            
             --ms-transform: scale(0.5);
             /* IE 9 */
             -webkit-transform: scale(0.5);
             /* Safari 3-8 */
             transform: scale(1.1);
+        }
+
+        .home:hover a, .skills:hover a,.about:hover a,.project:hover a,.contact-me:hover a{
+            color: #858585;
+        }
+        .home:hover,.skills:hover,.about:hover,.project:hover,.contact-me:hover{
+            top: 146px;
+            transform: scale(1.2);
+        }
+        @-webkit-keyframes spin {
+            0% { -webkit-transform: rotate(0deg); }
+            100% { -webkit-transform: rotate(360deg); }
+            }
+
+        @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
         }
     </style>
 </head>
@@ -98,7 +120,7 @@
 
             <img src="png/Ellipse 5.png" alt="" class="home-photo">
 
-            <a href="Ankit's Resume.pdf" download>
+            <a href="Ankit's Resume.pdf" target="_blank">
                 <div class="frame-7">
                     <button id="btn-r" type="submit">Resume<i class="fa-solid fa-download" style="margin-left: 0.8rem;
                         "></i></button>
@@ -261,7 +283,8 @@
 
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="356" height="360" viewBox="0 0 356 360" fill="none"
-                        style="
+                        style=" -webkit-animation: spin 10s linear infinite;
+                                animation: spin 10s linear infinite;
                 position: absolute; top: -161px; right: 51px;">
                         <g filter="url(#filter0_d_5_6)">
                             <ellipse cx="169" cy="120.75" rx="88" ry="89.7503" fill="url(#paint0_linear_5_6)"></ellipse>
@@ -296,7 +319,8 @@
                 <div class="ellipse-78"></div>
                 <div class="ellipse-79"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="397" height="400" viewBox="0 0 397 400" fill="none"
-                    class="side-svg ">
+                    class="side-svg" style=" -webkit-animation: spin 30s linear infinite;
+                    animation: spin 30s linear infinite;">
                     <g filter="url(#filter0_d_7_110)">
                         <ellipse cx="144.5" cy="139" rx="108.5" ry="110" fill="url(#paint0_radial_7_110)"></ellipse>
                     </g>
@@ -600,7 +624,8 @@
                         <div class="contact-me nav-list"><a href="#contact">Contact me </a></div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="356" height="360" viewBox="0 0 356 360" fill="none"
-                        style="
+                        style=" -webkit-animation: spin 10s linear infinite;
+                                animation: spin 10s linear infinite;
               position: absolute; top: -161px; right: 51px;">
                         <g filter="url(#filter0_d_5_6)">
                             <ellipse cx="169" cy="120.75" rx="88" ry="89.7503" fill="url(#paint0_linear_5_6)"></ellipse>
@@ -635,7 +660,8 @@
                 <div class="ellipse-78"></div>
                 <div class="ellipse-79"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="397" height="400" viewBox="0 0 397 400" fill="none"
-                    class="side-svg ">
+                    class="side-svg" style=" -webkit-animation: spin 30s linear infinite;
+                    animation: spin 30s linear infinite;">
                     <g filter="url(#filter0_d_7_110)">
                         <ellipse cx="144.5" cy="139" rx="108.5" ry="110" fill="url(#paint0_radial_7_110)"></ellipse>
                     </g>
@@ -839,7 +865,8 @@
                         <div class="contact-me nav-list"><a href="#contact">Contact me </a></div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="356" height="360" viewBox="0 0 356 360" fill="none"
-                        style="
+                        style=" -webkit-animation: spin 10s linear infinite;
+                                animation: spin 10s linear infinite;
               position: absolute; top: -161px; right: 51px;">
                         <g filter="url(#filter0_d_5_6)">
                             <ellipse cx="169" cy="120.75" rx="88" ry="89.7503" fill="url(#paint0_linear_5_6)"></ellipse>
@@ -874,7 +901,8 @@
                 <div class="ellipse-78" style="top: 62rem;"></div>
                 <div class="ellipse-79"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="397" height="400" viewBox="0 0 397 400" fill="none"
-                    class="side-svg ">
+                    class="side-svg" style=" -webkit-animation: spin 30s linear infinite;
+                    animation: spin 30s linear infinite;">
                     <g filter="url(#filter0_d_7_110)">
                         <ellipse cx="144.5" cy="139" rx="108.5" ry="110" fill="url(#paint0_radial_7_110)"></ellipse>
                     </g>
@@ -1042,7 +1070,8 @@
                     <div class="contact-me nav-list selected"><a href="#contact">Contact me </a></div>
                 </div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="356" height="360" viewBox="0 0 356 360" fill="none"
-                    style="
+                style=" -webkit-animation: spin 10s linear infinite;
+                                animation: spin 10s linear infinite;
               position: absolute; top: -161px; right: 51px;">
                     <g filter="url(#filter0_d_5_6)">
                         <ellipse cx="169" cy="120.75" rx="88" ry="89.7503" fill="url(#paint0_linear_5_6)"></ellipse>
@@ -1075,7 +1104,8 @@
             <div class="ellipse-78"></div>
             <div class="ellipse-79"></div>
             <svg xmlns="http://www.w3.org/2000/svg" width="397" height="400" viewBox="0 0 397 400" fill="none"
-                class="side-svg ">
+                class="side-svg " style=" -webkit-animation: spin 30s linear infinite;
+                animation: spin 30s linear infinite;">
                 <g filter="url(#filter0_d_7_110)">
                     <ellipse cx="144.5" cy="139" rx="108.5" ry="110" fill="url(#paint0_radial_7_110)"></ellipse>
                 </g>
@@ -1210,7 +1240,29 @@
 
 
     </main>
+    <script>
 
+           document.addEventListener('contextmenu',
+           event => event.preventDefault());
+
+        const images = document.querySelectorAll('img');
+        images.forEach(image => {
+        image.addEventListener('mousedown', (event) => {
+            if (event.button === 0) { 
+            event.preventDefault(); 
+            }
+        });
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'F12') {
+                event.preventDefault(); 
+                window.alert("WELCOME to Devlopers world :- Ankit Rathore");
+            }
+        });
+
+
+    </script>
     <script src="sc.js"></script>
 </body>
 
