@@ -56,6 +56,7 @@ section {
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
+    
 }
 
 .home-photo {
@@ -86,10 +87,11 @@ section {
 
 .frame-2 {
     width: 972px;
-    height: 414px;
+    /* height: 414px; */
+    z-index: 1;
     position: absolute;
     left: 110px;
-    top: 185px;
+    top: 32%;
 }
 
 .i-am-a-student-of-computer-science-engineering-i-am-a-full-stack-web-developer-and-good-cooder{
@@ -99,18 +101,17 @@ section {
     font-size: 18.374292373657227px;
     line-height: 31.24px;
     font-weight: 500;
-    position: absolute;
     z-index: 1;
-    left: 0px;
-    top: 156px;
     width: 417px;
-    height: 203px;
+    height: 130px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
+    flex-direction: column;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
+    gap: 1rem;
 }
 
 .ankit {
@@ -121,11 +122,8 @@ section {
     line-height: 23.95px;
     font-weight: 600;
     text-transform: uppercase;
-    position: absolute;
-    left: 0px;
-    top: 68.9px;
     width: 972px;
-    height: 179.15px;
+    height: 128.15px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -133,7 +131,26 @@ section {
     animation: slideRight 1s ease forwards;
     animation-delay: 1s;
 }
-
+.ankit svg path {
+    fill: transparent;
+    stroke: #000000;
+    stroke-width: 0.5;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: textAnimation 4s ease-in-out 1 forwards;
+  }
+  @keyframes textAnimation {
+    0% {
+      stroke-dashoffset: 50;
+    }
+    80% {
+      fill: transparent;
+    }
+    100% {
+      fill: #000000;
+      stroke-dashoffset: 0;
+    }
+  }
 .hello-i-m {
     color: #000000;
     text-align: left;
@@ -143,12 +160,9 @@ section {
     line-height: 21.15px;
     font-weight: 500;
     text-transform: uppercase;
-    position: absolute;
     z-index: 12;
-    left: 10.11px;
-    top: 0px;
     width: 833.75px;
-    height: 136.94px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -174,9 +188,6 @@ section {
 .frame-7 {
     width: 165px;
     height: 47px;
-    position: absolute;
-    left: 103px;
-    top: 503px;
     z-index: 110;
     opacity: 0;
     animation: slideTop 1s ease forwards;

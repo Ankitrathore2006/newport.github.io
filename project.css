@@ -14,95 +14,151 @@
     position: absolute;
     top: 14rem;
     left: 7rem;
-
-}
-
-.project-div {
-    margin-bottom: 1.5rem;
-    width: 100%;
-    flex-shrink: 0;
-    border-radius: 1.06944rem;
-    border: 1.5px solid rgba(134, 196, 217, 0.50);
-    background: rgba(125, 185, 206, 0.15);
-    backdrop-filter: blur(13.058648109436035px);
-}
-.project-div:hover {
-    transform: scale(1.02);
-}
-.project-heading {
-    width: 100%;
-    height: 1.5rem;
-    margin: 2rem 0 1.5rem 0;
-    text-align: center;
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #173B6C 39.31%, rgba(23, 59, 108, 0.00) 100.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.project-heading::after {
-    content: " ";
-    width: 17rem;
-    height: 0.125rem;
-    background: #9AE0D3;
-    position: absolute;
-    left: 385px;
-    top: 72px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
-}
-
-
-.project-containt {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+    gap: 2.5rem;
+    flex-direction: column;
 
-.project-text1 {
-    width: 26.625rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    color: rgba(41, 41, 41, 0.85);
+}
+.pro-container h3{
+    color: #173B6C;
     font-family: Inter;
-    font-size: 1.14rem;
+    margin-top: 12px;
+    font-size: 1.1rem;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     line-height: normal;
+    letter-spacing: 0.02rem;
     text-transform: capitalize;
+    margin-left: 10%;
 }
 
-.project-text2 {
-    width: 66rem;
-    margin: 1rem 4.5rem 3rem 5rem;
-    color: rgba(41, 41, 41, 0.85);
-    font-family: Inter;
-    font-size: 1.14rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: capitalize;
+.card-project:hover {
+    transform: scale(1.01);
+}
+.card-project:hover .image {
+    opacity: 1;
+    transform: scale(1.01);
+}
+ .card-project .image {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
 }
 
 
-.project-img {
-    width: 19rem;
-    margin-left: 1rem;
+/* CSS for the card */
+body {
+    font-family: 'Sans-serif';
+    background-color: #e5e7eb;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-.ecp {
-    width: 16.5rem;
-    position: fixed;
-    top: 18rem;
-    z-index: 0;
-    left: 28rem;
-    height: 16.5rem;
-    flex-shrink: 0;
-    border-radius: 16.5rem;
-    background: radial-gradient(384.25% 128.38% at 16.54% 2.44%, #9AE0D3 0%, #35A7A0 96.07%);
-    filter: blur(45px);
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.max-w-md {
+    max-width: 28rem;
+}
+
+.md\:max-w-2xl {
+    max-width: 42rem;
+}
+
+.px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.shadow-xl {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.md\:flex {
+    display: flex;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-bottom {
+    background-position: bottom;
+}
+
+.h-56 {
+    height: 14rem;
+}
+
+.md\:h-auto {
+    height: auto;
+}
+
+.md\:w-56 {
+    width: 14rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.md\:p-5 {
+    padding: 1.25rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.mt-3 {
+    margin-top: 0.75rem;
+}
+
+.text-gray-600 {
+    color: #4b5563;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.md\:text-base {
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+}
+
+
+@media (min-width: 768px) {
+  
 }

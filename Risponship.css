@@ -542,6 +542,19 @@
         display: none;
     } */
 
+
+    .md\:w-56 {
+        width: auto !important;
+    }
+    .md\:h-auto {
+        height: 14rem !important;
+    }
+    .md\:flex {
+        display: flex;
+        flex-direction: column !important;
+    }
+   
+
     .ic {
         margin-left: 1.5rem;
     }
@@ -883,16 +896,16 @@
     }
 
     .i-am-a-student-of-computer-science-engineering-i-am-a-full-stack-web-developer-and-good-cooder {
-        width: 15rem;
+        width: 20rem;
         line-height: 20px;
     }
 
     .ankit {
-        font-size: 76.839325px !important;
+        font-size: 70.839325px !important;
+        width: 19rem;
     }
 
     .hello-i-m {
-        height: 185.94px;
         font-size: 18.805294px;
     }
 
@@ -987,7 +1000,7 @@
     }
 
     #project {
-        height: 300vh !important;
+        height: 340vh !important;
     }
 
     .contact-form {
@@ -1095,7 +1108,8 @@
 
     #skills {
         height: 230vh !important;
-    }
+    }       
+
 
 }
 
@@ -1217,6 +1231,7 @@
         left: 3rem;
         position: absolute;
     }
+    
 
 
 }
